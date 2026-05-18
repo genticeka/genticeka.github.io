@@ -169,8 +169,8 @@ section h2 {
 
 .exp-meta {
     display: flex;
-    align-items: center;
-    gap: 0.6rem;
+    flex-direction: column;
+    gap: 0.1rem;
 }
 
 .exp-company {

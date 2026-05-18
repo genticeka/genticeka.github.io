@@ -22,7 +22,7 @@ function updateActiveDot() {
     if (scrollTop >= docHeight - 50) {
         current = 'contact';
     } else if (scrollTop < 50) {
-        current = 'intro';
+        current = 'about';
     } else {
         sections.forEach(section => {
             const rect = section.getBoundingClientRect();
