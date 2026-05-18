@@ -249,29 +249,27 @@ section h2 {
     font-size: 0.9rem;
 }
 
-.lang-heading {
-    margin-top: 3rem;
+.lang-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
-.lang-row {
+.lang-item {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     gap: 1rem;
 }
 
-.lang-tag {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    font-size: 0.9rem;
+.lang-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    min-width: 5rem;
 }
 
-.lang-tag em {
+.lang-level {
     color: var(--text-muted);
-    font-style: normal;
-    font-size: 0.8rem;
-    margin-left: 0.4rem;
+    font-size: 0.9rem;
 }
 
 /* Contact */
@@ -333,7 +331,4 @@ section h2 {
         padding: 2rem 0;
     }
 
-    .lang-row {
-        flex-direction: column;
-    }
 }
